@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    background-color:white;
+    color: black;
+}
+
+.nav{
+    height: 50px;
+    width: 100%;
+   
+    display: flex;
+    
+}
+
+.middle{
+    margin-top: 10px;
+    height: calc(100% - 75px);
+    width: 100%;
+    
+    border: 1px solid black ;
+}
+
+.N-1{
+    height: 100%;
+    width: 93%;
+
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.theme{
+    display: flex;
+}
+.white{
+    height: 9px;
+    width: 9px;
+    border: 1px solid black;
+ 
+    border-radius: 50%;
+   
+}
+.black{
+    height: 9px;
+    width: 9px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+.N_Last{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.grey{
+    color: grey;
+}
+
+.N-2{
+    height: 100%;
+    width: 7%;
+  
+    border: 1px solid black;
+    text-align: center;
+    padding: 9px;
+}
+
+.N-2:hover{
+    background-color: black;
+    color: white;
+}
+
+.top{
+    padding: 10px;
+    text-align: center;   
+}
+
+.middle_M{
+    height: 80px;
+    width: 100%;
+    
+    text-align: center;
+    margin-top: 200px;
+}
+.middle_M p{
+    font-size: 34px;
+    font-family: Gilroy;    
+}
+.middle_M p span{
+    font-size: 15px;
+
+}
+
+.home-logo-clip{
+    background-color: brown;
+}
+.bottom{
+   
+    font-size: 250px;
+    font-weight: 700;
+    font-family: Gilroy;
+    width: 100%;
+    text-align: center;
+   color: rgb(0, 0, 0);
+   letter-spacing: 15px;
+    
+}
